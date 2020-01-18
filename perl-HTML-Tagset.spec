@@ -1,6 +1,6 @@
 Name:           perl-HTML-Tagset
 Version:        3.20
-Release:        14%{?dist}
+Release:        15%{?dist}
 Summary:        HTML::Tagset - data tables useful in parsing HTML
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -42,6 +42,9 @@ make test
 %{_mandir}/man3/HTML::Tagset.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.20-15
+- Mass rebuild 2013-12-27
+
 * Mon Nov 12 2012 Petr Šabata <contyk@redhat.com> - 3.20-14
 - Add a missing dependency
 
